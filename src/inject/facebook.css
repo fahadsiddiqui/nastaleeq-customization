@@ -1,0 +1,37 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@font-face {
+    font-family: 'Mehr';
+    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/MehrUrdu.ttf');
+}
+
+:lang(ur), #facebook ._-kb *[dir="rtl"] p {
+	font-family: 'Mehr'!important;
+	direction:rtl!important;
+	font-size: 1.3rem!important;
+	line-height: 2rem!important;
+}
+
+*[dir="rtl"], *[dir="rtl"] p,.tweet-text-rtl, .u-dir[dir="rtl"] {
+	font-family: 'Mehr'!important;
+	direction:rtl!important;
+	font-size: 1.3rem!important;
+	line-height: 2rem!important;
+}
+
+._5p3y[dir="ltr"] *[dir="rtl"] {
+	font-family: 'Mehr'!important;
+	font-size: 1.3rem!important;
+	line-height: 2rem!important;
+	direction:rtl!important;
+}
+
+._5p3y[dir="ltr"] *[dir="rtl"] a {
+	font-size: 1.3rem!important;
+	line-height: 2rem!important;
+}
+*[dir="rtl"] ._58jw, *[dir="rtl"] ._58jw p {
+	font-size: 1.3rem!important;
+	line-height: 2rem!important;
+}

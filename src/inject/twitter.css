@@ -1,0 +1,42 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@font-face {
+    font-family: 'Mehr';
+    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/MehrUrdu.ttf');
+}
+
+:lang(ur) 	{
+	font-family: 'Mehr'!important;
+	direction:rtl;
+	font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+*[dir="rtl"], .tweet-text-rtl, .u-dir[dir="rtl"] {
+	font-family: 'Mehr'!important;
+	direction:rtl;
+	font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.TweetTextSize:lang(ur), .TweetTextSize.TweetTextSize--normal:lang(ur) {
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.TweetTextSize.TweetTextSize--jumbo:lang(ur) {
+	line-height: 3.7rem;
+    font-size: 1.8rem;
+}
+
+.QuoteTweet-text[dir="rtl"] {
+	font-size: 1.2rem;
+    line-height: 2.5rem;
+    padding: 1rem;
+}
+
+h1.AdaptiveSearchTitle-title[dir="rtl"] {
+    font-size: 1.8em;
+    line-height: 3.7em;
+}

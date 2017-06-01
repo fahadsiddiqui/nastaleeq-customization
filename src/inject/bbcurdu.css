@@ -1,0 +1,69 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@font-face {
+    font-family: 'Mehr';
+    src: url('chrome-extension://__MSG_@@extension_id__/src/inject/MehrUrdu.ttf');
+}
+
+:lang(ur) 	{
+	font-family: 'Mehr'!important;
+	direction:rtl;
+	line-height: 1rem!important;
+	font-size: 1rem!important;
+}
+.navigation-wide-list__link span, .navigation__more-button span {
+    line-height: 20px!important;
+    font-size: 18px!important;
+}
+*[dir="rtl"], .u-dir[dir="rtl"] {
+	font-family: 'Mehr'!important;
+	direction:rtl;
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+}
+
+.hard-news-unit--high .hard-news-unit__summary, p.hard-news-unit__summary, p.top-stories-promo-story__summary {
+	font-size: 1rem!important;
+	line-height: 3rem!important;
+}
+
+h3.hard-news-unit__headline a {
+	font-size: 1.3rem!important;
+	line-height: 3.8rem!important;
+}
+
+.story-body p {
+    font-size: 1.3rem!important;
+    line-height: 3rem!important;
+}
+li.story-body__list-item {
+    font-size: 1rem!important;
+    line-height: 2.2rem!important;
+}
+h2.story-body__sub-heading {
+	font-size: 1.4rem!important;
+    line-height: 3rem!important;
+}
+
+.story-body h1 {
+    font-size: 1.5rem!important;
+    line-height: 3rem!important;
+}
+h3.bold-image-promo__title {
+	font-size: 1.2rem!important;
+    line-height: 3.2rem!important;
+}
+h2.top-stories-promo__title {
+	font-size: 1.2rem!important;
+    line-height: 3.2rem!important;
+}
+
+.most-popular-list-item__headline {
+	font-size: 1.1rem!important;
+    line-height: 2.4rem!important;
+}
+.unit__title span {
+	font-size: 1rem!important;
+    line-height: 2.5rem!important;
+}
